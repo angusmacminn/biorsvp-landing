@@ -4,7 +4,12 @@ function StoreButton({ labelTop, labelBottom }: { labelTop: string; labelBottom:
 
   if (isAppStore) {
     return (
-      <a href="#" aria-label="Download on the App Store">
+      <a
+        href="https://apps.apple.com/au/app/guide-to-jpm26/id1494244381"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Download on the App Store"
+      >
         <img
           src="/assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
           alt="Download on the App Store"
@@ -16,7 +21,12 @@ function StoreButton({ labelTop, labelBottom }: { labelTop: string; labelBottom:
 
   if (isGooglePlay) {
     return (
-      <a href="#" aria-label="Get it on Google Play">
+      <a
+        href="https://play.google.com/store/apps/details?id=org.novateur.ConferenceGuide&pli=1"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Get it on Google Play"
+      >
         <img
           src="/assets/GetItOnGooglePlay_Badge_Web_color_English.svg"
           alt="Get it on Google Play"
