@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+:root {
+  --primary-blue: #1f8ed6;
+  --secondary-blue: #4fc3f7;
+  --deep-blue: #1c2e5b;
+  --black: #111111;
+}
+
+.site-container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 72rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.section-eyebrow {
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  background: var(--primary-blue);
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  display: inline-block;
+}
+
+.section-title {
+  font-size: 1.875rem;
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+}
+
+.section-body {
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgb(63 63 70);
+}
+
+.panel {
+  border: 1px solid #a8c7fa;
+  border-radius: 1rem;
+  background: white;
+}
+
+.feature-network {
+  --feature-gap: 1.25rem;
+}
+
+.feature-card {
+  position: relative;
+  overflow: visible;
+  border-color: rgba(168, 199, 250, 1);
+}
+
+@media (min-width: 768px) {
+  .feature-card:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    width: calc(var(--feature-gap) + 2px);
+    height: 1px;
+    background: #a8c7fa;
+    transform-origin: left;
+    transform: translateY(-50%) scaleX(0);
+    opacity: 0;
+    animation: feature-edge-link-draw 420ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+    pointer-events: none;
+  }
+
+  .feature-card:nth-child(1)::after {
+    animation-delay: 160ms;
+  }
+
+  .feature-card:nth-child(2)::after {
+    animation-delay: 280ms;
+  }
+}
+
+@keyframes feature-edge-link-draw {
+  to {
+    transform: translateY(-50%) scaleX(1);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .feature-card:not(:last-child)::after {
+    animation: none;
+    opacity: 1;
+    transform: translateY(-50%) scaleX(1);
+  }
+}
+
+@media (min-width: 640px) {
+  .site-container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .section-title {
+    font-size: 2.25rem;
+  }
+
+  .section-body {
+    font-size: 1.125rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .site-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .section {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .section-title {
+    font-size: 3rem;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
