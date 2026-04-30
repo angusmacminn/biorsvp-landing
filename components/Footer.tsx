@@ -4,71 +4,69 @@ export default function Footer() {
       <div className="site-container">
         <div className="grid gap-8 border-b border-white/10 pb-10 md:grid-cols-2 lg:grid-cols-4">
           <div>
-            <h3 className="text-2xl font-medium tracking-tight">
-              bio<span className="text-[var(--secondary-blue)]">RSVP</span>
-            </h3>
-            <p className="mt-3 max-w-xs text-sm leading-relaxed text-zinc-400">
+            <img
+              src="/assets/Logo_Horizontal_Dark.svg"
+              alt="bioRSVP"
+              className="h-10 w-auto sm:h-21"
+            />
+            <p className="mt-4 max-w-xs text-sm leading-relaxed text-zinc-400">
               The permanent directory for biotech&apos;s most important conversations.
             </p>
           </div>
           <div>
-            <p className="text-xs uppercase tracking-[0.2em] text-[var(--secondary-blue)]">Product</p>
-            <ul className="mt-3 space-y-2 text-sm text-zinc-300">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--secondary-blue)]/90">Product</p>
+            <ul className="mt-4 space-y-2.5 text-sm text-zinc-300">
               <li>
-                <a href="#cta" className="transition-colors hover:text-white">
+                <a href="#cta" className="font-medium transition-colors hover:text-white">
                   Download iOS
                 </a>
               </li>
               <li>
-                <a href="#cta" className="transition-colors hover:text-white">
+                <a href="#cta" className="font-medium transition-colors hover:text-white">
                   Download Android
                 </a>
               </li>
               <li>
-                <a href="#events" className="transition-colors hover:text-white">
+                <a href="#events" className="font-medium transition-colors hover:text-white">
                   Coverage
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <p className="text-xs uppercase tracking-[0.2em] text-[var(--secondary-blue)]">Community</p>
-            <ul className="mt-3 space-y-2 text-sm text-zinc-300">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--secondary-blue)]/90">Community</p>
+            <ul className="mt-4 space-y-2.5 text-sm text-zinc-300">
               <li>
-                <a href="#submit" className="transition-colors hover:text-white">
+                <a href="#submit" className="font-medium transition-colors hover:text-white">
                   List an event
                 </a>
               </li>
               <li>
-                <a href="#features" className="transition-colors hover:text-white">
+                <a href="#features" className="font-medium transition-colors hover:text-white">
                   Features
                 </a>
               </li>
               <li>
-                <a href="#stats" className="transition-colors hover:text-white">
+                <a href="#stats" className="font-medium transition-colors hover:text-white">
                   Audience data
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <p className="text-xs uppercase tracking-[0.2em] text-[var(--secondary-blue)]">Company</p>
-            <ul className="mt-3 space-y-2 text-sm text-zinc-300">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--secondary-blue)]/90">Company</p>
+            <ul className="mt-4 space-y-2.5 text-sm text-zinc-300">
               <li>
-                <a href="https://novateur.ca" className="transition-colors hover:text-white">
+                <a href="https://novateur.ca" className="font-medium transition-colors hover:text-white">
                   Novateur Ventures
                 </a>
               </li>
               <li>
-                <a href="mailto:partners@biorsvp.com" className="transition-colors hover:text-white">
+                <a href="mailto:partners@biorsvp.com" className="font-medium transition-colors hover:text-white">
                   Contact
                 </a>
               </li>
-              <li>
-                <a href="#" className="transition-colors hover:text-white">
-                  Privacy
-                </a>
-              </li>
+              
             </ul>
           </div>
         </div>

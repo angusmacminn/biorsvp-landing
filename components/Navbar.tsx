@@ -9,20 +9,12 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-zinc-200/70 bg-stone-50/90 backdrop-blur">
       <nav className="site-container flex items-center justify-between py-4" aria-label="Main navigation">
-        <a href="#" className="flex items-center gap-3 text-[var(--deep-blue)]">
-          <div
-            className="flex h-9 w-9 items-center justify-center rounded-md border border-[var(--deep-blue)]/30 bg-white text-xs font-semibold uppercase tracking-wide"
-            role="img"
-            aria-label="bioRSVP logo placeholder"
-          >
-            Logo
-          </div>
-          <div className="leading-tight">
-            <p className="text-lg font-semibold tracking-tight">bioRSVP</p>
-            <p className="text-[10px] uppercase tracking-[0.2em] text-zinc-500">
-              Make intelligent connections
-            </p>
-          </div>
+        <a href="#" className="flex items-center text-[var(--deep-blue)]" aria-label="bioRSVP home">
+          <img
+            src="/assets/Logo_Horizontal_Light.svg"
+            alt="bioRSVP"
+            className="h-20 w-auto"
+          />
         </a>
 
         <div className="flex items-center gap-3 sm:gap-4">
