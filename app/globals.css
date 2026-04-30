@@ -26,8 +26,8 @@
   font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  background: var(--primary-blue);
-  color: white;
+  background: var(--deep-blue);
+  color: #ffffff;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   display: inline-block;

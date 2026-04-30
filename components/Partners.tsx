@@ -37,7 +37,7 @@ export default function Partners() {
       <div className="site-container">
         <div className="flex flex-col gap-8">
           <div>
-            <p className="section-eyebrow text-[var(--primary-blue)]">For partners</p>
+            <p className="section-eyebrow ">For partners</p>
             <h2 className="section-title text-[var(--deep-blue)]">
               Be the first thing <span className="font-semibold">every executive sees</span> all week.
             </h2>

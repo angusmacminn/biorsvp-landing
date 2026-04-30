@@ -79,7 +79,7 @@ export default function Hero() {
       <div className="site-container">
       <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
         <div>
-          <p className="mb-6 inline-flex items-center rounded-full bg-[var(--primary-blue)] text-white px-4 py-2 text-[11px] font-medium uppercase tracking-[0.2em]">
+          <p className="mb-6 inline-block max-w-full rounded-2xl bg-[var(--deep-blue)] px-3 py-2 text-[10px] font-semibold uppercase leading-[1.35] tracking-[0.14em] text-white sm:inline-flex sm:items-center sm:rounded-full sm:px-4 sm:py-2 sm:text-[11px] sm:tracking-[0.2em]">
             Brought to you by Novateur Ventures
           </p>
           <h1 className="mb-6 text-4xl font-light leading-tight tracking-tight text-[var(--deep-blue)] sm:text-5xl lg:text-6xl">
