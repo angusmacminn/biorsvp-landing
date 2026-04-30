@@ -62,7 +62,7 @@ function MapAppPreview() {
     <img
       src="/assets/map-ui-svg.svg"
       alt="Preview of the bioRSVP mobile map interface"
-      className="h-full w-full object-cover"
+      className="h-auto w-full object-contain"
     />
   );
 }
