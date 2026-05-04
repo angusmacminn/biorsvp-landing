@@ -62,7 +62,7 @@ function MapAppPreview() {
     <img
       src="/assets/map-ui-svg.svg"
       alt="Preview of the bioRSVP mobile map interface"
-      className="h-auto w-full object-contain"
+      className="hero-map-preview h-auto w-full object-contain"
     />
   );
 }
@@ -75,7 +75,7 @@ const proofStats = [
 
 export default function Hero() {
   return (
-    <section className="section pt-14 sm:pt-16 lg:pt-20">
+    <section className="section hero-identity-bg pt-14 sm:pt-16 lg:pt-20">
       <div className="site-container">
       <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
         <div>
@@ -86,18 +86,18 @@ export default function Hero() {
             Make intelligent <span className="font-semibold text-[var(--primary-blue)]"> connections </span>
             at biotech&apos;s most important weeks.
           </h1>
-          <p className="mb-8 max-w-2xl text-base leading-relaxed text-zinc-700 sm:text-lg">
+          <p className="mb-6 max-w-2xl text-base leading-relaxed text-zinc-700 sm:text-lg">
             Every reception. Every satellite event. Every private gathering. <br /> At JPM 2026 alone, bioRSVP mapped 260+
             events across San Francisco and is now expanding to BIO International and Jefferies London Healthcare.
           </p>
 
-          <div className="mb-7 grid gap-4 rounded-2xl border border-zinc-200 bg-white/80 p-4 sm:grid-cols-3 sm:gap-3">
+          <div className="mb-6 grid gap-4 rounded-2xl border border-zinc-200 bg-white/80 p-4 sm:grid-cols-3 sm:gap-3">
             {proofStats.map((item) => (
               <div key={item.label} className="sm:border-r sm:border-zinc-200 sm:pr-3 last:sm:border-r-0 last:sm:pr-0">
                 <p className="text-2xl font-semibold tracking-tight text-[var(--deep-blue)] sm:text-[1.7rem]">
                   {item.value}
                 </p>
-                <p className="mt-1 text-[10px] uppercase tracking-[0.15em] text-zinc-500 sm:text-[11px]">{item.label}</p>
+                <p className="mt-1 text-[10px] uppercase tracking-[0.15em] text-zinc-600 sm:text-[11px]">{item.label}</p>
               </div>
             ))}
           </div>
@@ -120,7 +120,7 @@ export default function Hero() {
 
         <div >
           <div
-            className="overflow-hidden"
+            className="hero-map-preview-wrap overflow-hidden"
             role="img"
             aria-label="Preview of the bioRSVP mobile map interface"
           >

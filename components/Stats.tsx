@@ -33,7 +33,7 @@ const statCards = [
 
 export default function Stats() {
   return (
-    <section id="stats" className="section bg-[var(--deep-blue)] text-stone-50">
+    <section id="stats" className="section stats-identity-bg bg-[var(--deep-blue)] text-stone-50">
       <div className="site-container">
         <p className="section-eyebrow text-[var(--secondary-blue)]">By the numbers</p>
         <h2 className="section-title max-w-3xl">

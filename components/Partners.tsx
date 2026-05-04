@@ -52,9 +52,9 @@ export default function Partners() {
           {partnerTiers.map((tier) => (
             <article
               key={tier.name}
-              className={`relative rounded-2xl border p-6 ${
+              className={`partner-card-motif relative rounded-2xl border p-6 ${
                 tier.featured
-                  ? "border-[var(--deep-blue)] bg-[var(--deep-blue)] text-white"
+                  ? "is-featured border-[var(--deep-blue)] bg-[var(--deep-blue)] text-white"
                   : "border-zinc-200 bg-stone-100/70 text-[var(--black)]"
               }`}
             >
@@ -111,12 +111,7 @@ export default function Partners() {
               >
                 partners@biorsvp.com
               </a>
-              <a
-                href="#"
-                className="inline-flex items-center justify-center rounded-full border border-[var(--deep-blue)] px-5 py-3 text-sm font-medium text-[var(--deep-blue)] transition-colors hover:bg-[var(--deep-blue)] hover:text-white"
-              >
-                Download media kit (PDF)
-              </a>
+              
             </div>
           </div>
         </div>

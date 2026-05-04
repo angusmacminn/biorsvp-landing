@@ -18,7 +18,7 @@ const features = [
 
 export default function Features() {
   return (
-    <section id="features" className="section">
+    <section id="features" className="section features-section-bg">
       <div className="site-container">
         <p className="section-eyebrow text-[var(--primary-blue)]">Why bioRSVP</p>
         <h2 className="section-title max-w-3xl text-[var(--deep-blue)]">
