@@ -7,6 +7,7 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Partners from "../components/Partners";
 import Stats from "../components/Stats";
+import Story from "../components/Story";
 
 export default function HomePage() {
   return (
@@ -17,6 +18,7 @@ export default function HomePage() {
         <Features />
         <Events />
         <Stats />
+        <Story />
         <FormSection />
         <Partners />
         <CTA />
