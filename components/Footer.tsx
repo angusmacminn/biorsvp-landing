@@ -62,7 +62,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:partners@biorsvp.com" className="font-medium transition-colors hover:text-white">
+                <a href="mailto:biorsvp@novateur.org" className="font-medium transition-colors hover:text-white">
                   Contact
                 </a>
               </li>

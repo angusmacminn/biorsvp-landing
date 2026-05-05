@@ -76,10 +76,10 @@ export default function CTA() {
         <p className="mt-8 text-sm text-zinc-600">
           Partnership inquiries:{" "}
           <a
-            href="mailto:partners@biorsvp.com"
+            href="mailto:biorsvp@novateur.org"
             className="font-medium text-[var(--deep-blue)] underline decoration-[var(--primary-blue)] underline-offset-4"
           >
-            partners@biorsvp.com
+            biorsvp@novateur.org
           </a>
         </p>
       </div>

@@ -106,10 +106,10 @@ export default function Partners() {
 
             <div className="flex flex-col gap-3">
               <a
-                href="mailto:partners@biorsvp.com"
+                href="mailto:biorsvp@novateur.org"
                 className="inline-flex items-center justify-center rounded-full bg-[var(--black)] px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-[var(--primary-blue)]"
               >
-                partners@biorsvp.com
+                biorsvp@novateur.org
               </a>
               
             </div>
