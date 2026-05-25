@@ -5,7 +5,7 @@ function StoreButton({ labelTop, labelBottom }: { labelTop: string; labelBottom:
   if (isAppStore) {
     return (
       <a
-        href="https://apps.apple.com/au/app/guide-to-jpm26/id1494244381"
+        href="https://apps.apple.com/us/app/guide-to-jpm26/id1494244381"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Download on the App Store"
