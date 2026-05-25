@@ -8,6 +8,7 @@ import Navbar from "../components/Navbar";
 import Partners from "../components/Partners";
 import Stats from "../components/Stats";
 import Story from "../components/Story";
+import VideoSection from "../components/VideoSection";
 
 export default function HomePage() {
   return (
@@ -19,6 +20,7 @@ export default function HomePage() {
         <Events />
         <Stats />
         <Story />
+        <VideoSection />
         <FormSection />
         <Partners />
         <CTA />
