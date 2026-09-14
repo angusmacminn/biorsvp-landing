@@ -80,7 +80,7 @@ export default function Hero() {
       <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
         <div>
           <p className="mb-6 inline-block max-w-full rounded-2xl bg-[var(--deep-blue)] px-3 py-2 text-[10px] font-semibold uppercase leading-[1.35] tracking-[0.14em] text-white sm:inline-flex sm:items-center sm:rounded-full sm:px-4 sm:py-2 sm:text-[11px] sm:tracking-[0.2em]">
-            Brought to you by Novateur Ventures
+            Brought to you By Novateur and BIO
           </p>
           <h1 className="mb-6 text-4xl font-light leading-tight tracking-tight text-[var(--deep-blue)] sm:text-5xl lg:text-6xl">
             Make intelligent <span className="font-semibold text-[var(--primary-blue)]"> connections </span>
@@ -88,7 +88,7 @@ export default function Hero() {
           </h1>
           <p className="mb-6 max-w-2xl text-base leading-relaxed text-zinc-700 sm:text-lg">
             Every reception. Every satellite event. Every private gathering. <br /> At JPM 2026 alone, bioRSVP mapped 260+
-            events across San Francisco and is now expanding to BIO International and Jefferies London Healthcare.
+            events across San Francisco and is now expanding to BIO International and London Life Sciences Week.
           </p>
 
           <div className="mb-6 grid gap-4 rounded-2xl border border-zinc-200 bg-white/80 p-4 sm:grid-cols-3 sm:gap-3">

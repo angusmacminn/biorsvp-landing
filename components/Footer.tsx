@@ -54,7 +54,7 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--secondary-blue)]/90">Company</p>
+            <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--secondary-blue)]/90">About Us</p>
             <ul className="mt-4 space-y-2.5 text-sm text-zinc-300">
               <li>
                 <a href="https://novateur.ca" className="font-medium transition-colors hover:text-white">

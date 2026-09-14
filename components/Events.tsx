@@ -9,7 +9,7 @@ const conferences = [
   },
   {
     code: "02",
-    title: "Jefferies Healthcare Conference",
+    title: "London Life Sciences Week",
     description: "Europe's premier healthcare finance event.",
     cadence: "Annual",
     date: "November",

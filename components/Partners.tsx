@@ -46,52 +46,10 @@ export default function Partners() {
             bioRSVP places your brand in front of an audience that is already opted in, already engaged, and already
             making the decisions that matter.
           </p>
+          
         </div>
 
-        <div className="mt-10 grid gap-5 lg:grid-cols-3">
-          {partnerTiers.map((tier) => (
-            <article
-              key={tier.name}
-              className={`partner-card-motif relative rounded-2xl border p-6 ${
-                tier.featured
-                  ? "is-featured border-[var(--deep-blue)] bg-[var(--deep-blue)] text-white"
-                  : "border-zinc-200 bg-stone-100/70 text-[var(--black)]"
-              }`}
-            >
-              {tier.ribbon ? (
-                <span className="absolute right-5 top-5 rounded-full bg-[var(--secondary-blue)] px-3 py-1 text-[10px] font-medium uppercase tracking-[0.15em] text-[var(--deep-blue)]">
-                  {tier.ribbon}
-                </span>
-              ) : null}
-
-              <p
-                className={`text-xs font-medium uppercase tracking-[0.2em] ${
-                  tier.featured ? "text-[var(--secondary-blue)]" : "text-[var(--primary-blue)]"
-                }`}
-              >
-                {tier.tier}
-              </p>
-              <h3 className="mt-3 text-2xl font-semibold tracking-tight">{tier.name}</h3>
-              <p className={`mt-3 text-sm leading-relaxed ${tier.featured ? "text-white/80" : "text-zinc-700"}`}>
-                {tier.description}
-              </p>
-
-              <ul className={`mt-5 space-y-2 border-t pt-4 ${tier.featured ? "border-white/20" : "border-zinc-200"}`}>
-                {tier.benefits.map((benefit) => (
-                  <li key={benefit} className="flex items-start gap-2 text-sm">
-                    <span
-                      className={`mt-1.5 h-2 w-2 rounded-full ${
-                        tier.featured ? "bg-[var(--secondary-blue)]" : "bg-[var(--primary-blue)]"
-                      }`}
-                      aria-hidden="true"
-                    />
-                    <span>{benefit}</span>
-                  </li>
-                ))}
-              </ul>
-            </article>
-          ))}
-        </div>
+        
 
         <div className="panel mt-10 rounded-3xl bg-stone-100/70 p-7 sm:p-10">
           <div className="grid gap-6 lg:grid-cols-[1.4fr_1fr] lg:items-center">
@@ -105,11 +63,12 @@ export default function Partners() {
             </div>
 
             <div className="flex flex-col gap-3">
+              
               <a
-                href="mailto:biorsvp@novateur.org"
+                href="mailto:jwhite@bio.org"
                 className="inline-flex items-center justify-center rounded-full bg-[var(--black)] px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-[var(--primary-blue)]"
               >
-                biorsvp@novateur.org
+                Contact Jacob White, BIO
               </a>
               
             </div>
