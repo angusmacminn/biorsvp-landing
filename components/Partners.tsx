@@ -70,6 +70,16 @@ export default function Partners() {
               >
                 Contact Jacob White, BIO
               </a>
+              <div className="inline-flex w-fit items-center gap-3 px-1 py-1">
+                <span className="text-xs font-semibold uppercase tracking-[0.16em] text-zinc-600">In collaboration with</span>
+                <span className="inline-flex rounded-md bg-[var(--deep-blue)] px-3 py-1.5">
+                  <img
+                    src="/assets/BIO_Logo_Org_Primary_Horiz_KO.svg"
+                    alt="Biotechnology Innovation Organization"
+                    className="h-8 w-auto"
+                  />
+                </span>
+              </div>
               
             </div>
           </div>
