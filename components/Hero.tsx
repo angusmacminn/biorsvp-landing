@@ -83,11 +83,18 @@ export default function Hero() {
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--deep-blue)] sm:text-[13px]">
               Brought to you by Novateur and BIO
             </p>
-            <img
-              src="/assets/BIO_Logo_Org_Primary_Vert_RGB.svg"
-              alt="Biotechnology Innovation Organization"
-              className="h-20 w-auto sm:h-24"
-            />
+            <div className="flex flex-wrap items-center gap-4">
+              <img
+                src="/assets/novateur-logo.png"
+                alt="Novateur Ventures"
+                className="h-16 w-auto sm:h-20"
+              />
+              <img
+                src="/assets/BIO_Logo_Org_Primary_Vert_RGB.svg"
+                alt="Biotechnology Innovation Organization"
+                className="h-20 w-auto sm:h-24"
+              />
+            </div>
           </div>
           <h1 className="mb-6 text-4xl font-light leading-tight tracking-tight text-[var(--deep-blue)] sm:text-5xl lg:text-6xl">
             Make intelligent <span className="font-semibold text-[var(--primary-blue)]"> connections </span>

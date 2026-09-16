@@ -62,6 +62,11 @@ export default function Footer() {
                 </a>
               </li>
               <li>
+                <a href="https://www.bio.org/" className="font-medium transition-colors hover:text-white">
+                  BIO
+                </a>
+              </li>
+              <li>
                 <a href="mailto:biorsvp@novateur.org" className="font-medium transition-colors hover:text-white">
                   Contact
                 </a>
